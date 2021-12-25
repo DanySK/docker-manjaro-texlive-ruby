@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
           submodules: recursive
@@ -35,6 +35,30 @@ jobs:
         run: |
           echo docker build -t "$IMAGE_NAME:latest" -t "$IMAGE_NAME:$VERSION" .
           docker build -t "$IMAGE_NAME:latest" -t "$IMAGE_NAME:$VERSION" .
+      - name: Trick Renovate
+        id: trick
+        shell: bash
+        run: |
+          # Idea: the regex matcher of Renovate keeps this string up to date automatically
+          # The version is extracted and used to access the correct version of the scripts
+          USES=$(cat <<TRICK_RENOVATE
+          - uses: DanySK/Curriculum-Vitae@c8c91a89abab59b235ae59f665ac7322d6fa61d2
+          TRICK_RENOVATE
+          )
+          echo "Scripts update line: \"$USES\""
+          echo "Computed version: \"${USES#*@}\""
+          echo "::set-output name=version::${USES#*@}"
+      - name: Copy test repository
+        uses: actions/checkout@v2.4.0
+        with:
+          repository: DanySK/Curriculum-Vitae
+          path: curriculum
+          ref: ${{ steps.trick.outputs.version }}
+      - name: Run test
+        working-directory: curriculum
+        run: |
+          docker run --rm "$IMAGE_NAME:$VERSION" /bin/bash -c 'gem install --user-install bundler && bundle install && ./scholar_scraper.rb' 
+          [ -s scholar.tex ]
       - name: Login to Docker Hub
         if: ${{ github.event_name != 'pull_request' }}
         env:
