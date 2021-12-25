@@ -1,6 +1,5 @@
 FROM danysk/docker-manjaro-texlive-base:33.20211219.1101
-RUN yay-install ruby
-RUN yay-install rubygems
+RUN yay-install ruby rubygems ruby-bundler
 RUN mkdir -p /rubygems/bin
 RUN chmod 777 /rubygems/bin
 ENV GEM_HOME=/rubygems/bin
