@@ -5,6 +5,7 @@ RUN chmod 777 /rubygems/bin
 ENV GEM_HOME=/rubygems/bin
 ENV GEM_PATH=/rubygems/bin
 RUN mkdir -p "$(ruby -e 'puts Gem.user_dir')"
+COPY .gemrc /root/.gemrc
 RUN ln -sf "$GEM_HOME" "$(ruby -e 'puts Gem.user_dir')/bin"
 RUN ls -ahl "$(ruby -e 'puts Gem.user_dir')/bin"
 ENV PATH="$GEM_HOME:$PATH"
