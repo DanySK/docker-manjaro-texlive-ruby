@@ -5,7 +5,9 @@ plugins:
   - "@semantic-release/changelog"
   -
     - "@semantic-release/exec"
-    - prepareCmd: docker build -t "$IMAGE_NAME:${nextRelease.version}"
-      publishCmd: docker push --all-tags "$IMAGE_NAME"
+    - publishCmd: |
+        IMAGE_NAME="danysk/docker-manjaro-texlive-ruby"
+        docker build -t "$IMAGE_NAME:${nextRelease.version}"
+        docker push --all-tags "$IMAGE_NAME"
   - "@semantic-release/github"
   - "@semantic-release/git"
