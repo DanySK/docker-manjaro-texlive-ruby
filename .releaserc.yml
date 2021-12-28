@@ -1,0 +1,11 @@
+extends:
+  - semantic-release-preconfigured-conventional-commits
+plugins:
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  -
+    - "@semantic-release/exec"
+    - prepareCmd: docker build -t "$IMAGE_NAME:${nextRelease.version}"
+      publishCmd: docker push --all-tags "$IMAGE_NAME"
+  - "@semantic-release/github"
+  - "@semantic-release/git"
