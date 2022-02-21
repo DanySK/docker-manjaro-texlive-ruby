@@ -1,3 +1,10 @@
+### [15.0.10](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.9...15.0.10) (2022-02-21)
+
+
+### Bug Fixes
+
+* **release:** add missing argument to docker build ([aa81520](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/aa815204edf16ed04ac82cc36f332c7580efdcb7))
+
 ### [15.0.9](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.8...15.0.9) (2022-02-20)
 
 
