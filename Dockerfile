@@ -1,4 +1,4 @@
-FROM danysk/docker-manjaro-texlive-base:54.20220327.1804
+FROM danysk/docker-manjaro-texlive-base:55.20220403.1935
 RUN yay-install ruby rubygems ruby-bundler
 RUN mkdir -p /rubygems
 RUN chmod 777 /rubygems
