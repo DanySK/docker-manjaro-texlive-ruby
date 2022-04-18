@@ -1,3 +1,10 @@
+### [15.0.22](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.21...15.0.22) (2022-04-18)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency danysk/docker-manjaro-texlive-base to v58 ([e759827](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/e759827fd6cf19add263f8e836a9525426373b43))
+
 ### [15.0.21](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.20...15.0.21) (2022-04-17)
 
 
