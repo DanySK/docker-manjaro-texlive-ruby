@@ -1,3 +1,12 @@
+## [15.0.111](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.110...15.0.111) (2023-06-14)
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/docker-manjaro-texlive-base docker tag to v148 ([9366393](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/93663933943db6b133f2e838bc34d9f27a2ff26b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.34 ([5129aae](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/5129aaef20a512977ace88f3bddbc803b8b1fe31))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([2c8e4e4](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/2c8e4e4b539708b8cd0ef9a024a6735b377264be))
+
 ## [15.0.110](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.109...15.0.110) (2023-06-13)
 
 
