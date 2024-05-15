@@ -1,7 +1,7 @@
 FROM danysk/docker-manjaro-texlive-base:202.20240515.1021
 RUN pamac update --no-confirm
 RUN pamac upgrade --no-confirm
-RUN pamac install --no-confirm ruby rubygems ruby-bundler
+RUN pamac install --no-confirm ruby rubygems ruby-bundler make gcc
 RUN paccache -rk 0
 RUN pamac clean -b
 RUN mkdir -p /rubygems
