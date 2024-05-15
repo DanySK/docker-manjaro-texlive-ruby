@@ -6,9 +6,9 @@ on:
       - 'bump-**'
       - 'renovate/**'
   pull_request:
-    
+
 jobs:
-  Build-And-Deploy-Container:
+  success:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -51,7 +51,7 @@ jobs:
           ref: ${{ steps.trick.outputs.version }}
       - name: Run test
         run: |
-          docker run --rm --workdir="/curriculum" -v "$(pwd)/curriculum:/curriculum" "$IMAGE_NAME:latest" /bin/bash -c 'gem install --user-install bundler && bundle install && ./scholar_scraper.rb' 
+          docker run --rm --workdir="/curriculum" -v "$(pwd)/curriculum:/curriculum" "$IMAGE_NAME:latest" /bin/bash -c 'gem install --user-install bundler && bundle install && ./scholar_scraper.rb'
           [ -s curriculum/scholar.tex ]
       - name: Login to Docker Hub
         if: ${{ github.event_name != 'pull_request' }}
