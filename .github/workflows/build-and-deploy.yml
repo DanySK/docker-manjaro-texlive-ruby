@@ -69,7 +69,7 @@ jobs:
       - name: Create Release
         if: ${{ github.event_name != 'pull_request' }}
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         run: |
           npm install
           npx semantic-release --debug
