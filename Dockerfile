@@ -1,4 +1,4 @@
-FROM danysk/docker-manjaro-texlive-base:227.20240721.1104
+FROM danysk/docker-manjaro-texlive-base:228.20240725.1146
 RUN pamac update --no-confirm
 RUN pamac upgrade --no-confirm
 RUN pamac install --no-confirm ruby rubygems ruby-bundler make gcc
