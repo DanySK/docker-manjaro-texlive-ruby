@@ -1,9 +1,15 @@
-FROM danysk/docker-manjaro-texlive-base:241.20240926.2152
-RUN pamac update --no-confirm
-RUN pamac upgrade --no-confirm
-RUN pamac install --no-confirm ruby rubygems ruby-bundler make gcc
+FROM danysk/manjaro-texlive:245.20241001.1718
+USER build
+RUN paru -S\
+    gcc\
+    make\
+    ruby\
+    ruby-bundler\
+    rubygems\
+    --noconfirm
+RUN paru -Scc --noconfirm
+USER root
 RUN paccache -rk 0
-RUN pamac clean -b
 RUN mkdir -p /rubygems
 RUN chmod 777 /rubygems
 ENV GEM_HOME=/rubygems
