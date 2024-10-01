@@ -11,6 +11,7 @@ jobs:
   success:
     runs-on: ubuntu-24.04
     permissions:
+      actions: write
       contents: write
       packages: write
     steps:
@@ -68,6 +69,8 @@ jobs:
           node-version-file: package.json
       - name: Create Release
         if: ${{ github.event_name != 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install
           npx semantic-release --debug
