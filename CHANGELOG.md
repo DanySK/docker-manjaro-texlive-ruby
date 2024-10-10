@@ -1,3 +1,18 @@
+## [16.0.1](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.0...16.0.1) (2024-10-10)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v247 ([ae23faa](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/ae23faaa53222bde7300c16cb2072712a80f3bf5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.110 ([6f0563d](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/6f0563daf9afdb3ba758d97734373a6a1a27f9d8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.111 ([b8c4ead](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/b8c4eade083a405c00c84598642bfae8c5dad28c))
+* **deps:** update node.js to 20.18 ([1d592ff](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/1d592fff5132645284e531e4c22cf41801560c85))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.1 ([4ff61ea](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/4ff61eac6e4c2317b76d7b3ec2e054067c2b500d))
+* **deps:** update danysk/curriculum-vitae digest to a0ba1c9 ([73c8e1a](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/73c8e1a755393fa58d753996fc408cd737c0db0a))
+* **deps:** update danysk/curriculum-vitae digest to cd11411 ([5508b84](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/5508b840ddc7eb4378729278407371e1bd7036a6))
+
 ## [16.0.0](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/15.0.146...16.0.0) (2024-10-01)
 
 ### ⚠ BREAKING CHANGES
