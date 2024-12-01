@@ -1,3 +1,14 @@
+## [16.0.10](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.9...16.0.10) (2024-12-01)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v260 ([52e530b](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/52e530bb6d8ebc1c7411e8517e68e9ff3a89743e))
+
+### Build and continuous integration
+
+* **deps:** update danysk/curriculum-vitae digest to 7db1d3c ([89e473e](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/89e473e6ee6e879f7d84f42be3484f81eb953ad5))
+* replace deprecated ::set-output workflow command ([ef98969](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/ef989699624c2345aa700c5b65571317a0696b26))
+
 ## [16.0.9](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.8...16.0.9) (2024-12-01)
 
 ### Dependency updates
