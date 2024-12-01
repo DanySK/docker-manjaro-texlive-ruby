@@ -1,6 +1,6 @@
 FROM danysk/manjaro-texlive:259.20241119.1309
 USER build
-RUN paru -S\
+RUN paru -Sy\
     gcc\
     make\
     ruby\
