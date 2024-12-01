@@ -67,8 +67,7 @@ jobs:
         uses: actions/setup-node@v4.1.0
         with:
           node-version-file: package.json
-      - name: Create Release
-        if: ${{ github.event_name != 'pull_request' }}
+      - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
