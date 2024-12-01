@@ -46,7 +46,7 @@ jobs:
           )
           echo "Scripts update line: \"$USES\""
           echo "Computed version: \"${USES#*@}\""
-          echo "::set-output name=version::${USES#*@}"
+          echo "version=${USES#*@}" >> $GITHUB_OUTPUT
       - name: Copy test repository
         uses: actions/checkout@v4.2.2
         with:
