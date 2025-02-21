@@ -1,4 +1,4 @@
-FROM danysk/manjaro-texlive:272.20250211.1746
+FROM danysk/manjaro-texlive:273.20250218.1703
 USER build
 RUN paru -Sy\
     gcc\
