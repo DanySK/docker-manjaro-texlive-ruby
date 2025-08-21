@@ -8,6 +8,7 @@ RUN paru -Sy\
     rubygems\
     --noconfirm
 RUN paru -Scc --noconfirm
+RUN which pdflatex
 USER root
 RUN paccache -rk 0
 RUN mkdir -p /rubygems
