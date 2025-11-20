@@ -1,3 +1,9 @@
+## [16.0.47](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.46...16.0.47) (2025-11-20)
+
+### Bug Fixes
+
+* update base image version in Dockerfile ([#664](https://github.com/DanySK/docker-manjaro-texlive-ruby/issues/664)) ([900c22a](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/900c22a83c6c9c79c01394109b11ec3292924558))
+
 ## [16.0.46](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.45...16.0.46) (2025-11-20)
 
 ### Dependency updates
