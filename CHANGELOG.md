@@ -1,3 +1,13 @@
+## [16.0.50](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.49...16.0.50) (2025-11-27)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v300 ([00022ef](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/00022efc56e956c32ab0c06ae5aebf09e667370e))
+
+### Build and continuous integration
+
+* **deps:** update danysk/curriculum-vitae digest to a3f4745 ([3543015](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/3543015c65d0bb9ba54426cca47e9f837e5564e9))
+
 ## [16.0.49](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.48...16.0.49) (2025-11-27)
 
 ### Dependency updates
