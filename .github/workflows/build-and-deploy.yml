@@ -41,7 +41,7 @@ jobs:
           # Idea: the regex matcher of Renovate keeps this string up to date automatically
           # The version is extracted and used to access the correct version of the scripts
           USES=$(cat <<TRICK_RENOVATE
-          - uses: DanySK/Curriculum-Vitae@e82f08335eedb9eb23437df0858b52c564d33344
+          - uses: DanySK/Curriculum-Vitae@aa3f6c39d6fa68e9ff8f1a52c6a94e8507116423
           TRICK_RENOVATE
           )
           echo "Scripts update line: \"$USES\""
