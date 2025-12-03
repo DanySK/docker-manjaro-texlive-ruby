@@ -64,7 +64,7 @@ jobs:
           DOCKER_USERNAME: danysk
         run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
       - name: Install Node
-        uses: actions/setup-node@v6.0.0
+        uses: actions/setup-node@v6.1.0
         with:
           node-version-file: package.json
       - name: Semantic Release
