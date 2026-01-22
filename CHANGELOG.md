@@ -1,3 +1,21 @@
+## [16.0.52](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.51...16.0.52) (2026-01-22)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v302 ([baeddfe](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/baeddfe7f7f34462687107a2d2cfa33842a775c2))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.1 ([9829fe0](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/9829fe00e8de21566508ca5901e8825f1bbd0389))
+* **deps:** update actions/checkout action to v6.0.2 ([708bf33](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/708bf331d0715d3345da683842b5bc14b2f0055d))
+* **deps:** update actions/setup-node action to v6.1.0 ([4dadcd2](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/4dadcd270e0fc9c29de62ece4f3c176cccd20f6a))
+* **deps:** update danysk/curriculum-vitae digest to 9239fb0 ([21b6635](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/21b663542b43f8d763569e0721fc42b39ce9a3a1))
+* **deps:** update danysk/curriculum-vitae digest to aa3f6c3 ([0c432f6](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/0c432f68d78418c7ab19ed7741c99a982c26c326))
+* **deps:** update danysk/curriculum-vitae digest to bef6520 ([e49c502](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/e49c50215a509741bef176489b66c6d3001eae82))
+* **deps:** update danysk/curriculum-vitae digest to e82f083 ([6fd265f](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/6fd265fe3dffe8d552e2fb20f86ec6ae26a3ae1a))
+* **deps:** update danysk/curriculum-vitae digest to f109b4e ([858b624](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/858b624b493824a34cc248fdb4f6d3e7a722f752))
+* **deps:** update danysk/curriculum-vitae digest to f91297a ([b935bbb](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/b935bbb423a8714bb722b2e66fb6fce6b7b8b19d))
+
 ## [16.0.51](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.50...16.0.51) (2025-11-30)
 
 ### Dependency updates
