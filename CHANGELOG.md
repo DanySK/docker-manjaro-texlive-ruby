@@ -1,3 +1,9 @@
+## [16.0.55](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.54...16.0.55) (2026-04-30)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v309 ([119802e](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/119802efd62c752857f9068d1ae3792d5ac780cf))
+
 ## [16.0.54](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.53...16.0.54) (2026-04-30)
 
 ### Dependency updates
