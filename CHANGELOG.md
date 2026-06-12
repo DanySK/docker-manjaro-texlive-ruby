@@ -1,3 +1,9 @@
+## [16.0.57](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.56...16.0.57) (2026-06-12)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v310 ([6dacd71](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/6dacd717a7c0d64d8ed3a1128f8683a4b7de4567))
+
 ## [16.0.56](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.55...16.0.56) (2026-06-05)
 
 ### Dependency updates
