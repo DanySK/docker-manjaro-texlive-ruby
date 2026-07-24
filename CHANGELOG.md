@@ -1,3 +1,15 @@
+## [16.0.61](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.60...16.0.61) (2026-07-24)
+
+### Dependency updates
+
+* **core-deps:** update danysk/manjaro-texlive docker tag to v314 ([83f549a](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/83f549a930688a10b03128e45de0aa6f18048867))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v7.0.1 ([70caf03](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/70caf03d89af776e146e10952861a794c11349b8))
+* **deps:** update actions/setup-node action to v6.5.0 ([1c48a4e](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/1c48a4edee5e3b43b3b70598ad3251ba681b066a))
+* **deps:** update actions/setup-node action to v7 ([7421f6d](https://github.com/DanySK/docker-manjaro-texlive-ruby/commit/7421f6d23b602328a1f5463d1fb634db49a43e6a))
+
 ## [16.0.60](https://github.com/DanySK/docker-manjaro-texlive-ruby/compare/16.0.59...16.0.60) (2026-06-28)
 
 ### Dependency updates
